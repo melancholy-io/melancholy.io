@@ -1,0 +1,59 @@
+@mixin mq-480 {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin mq-640 {
+  @media (min-width: 640px) {
+    @content;
+  }
+}
+
+@mixin mq-800 {
+  @media (min-width: 800px) {
+    @content;
+  }
+}
+
+@mixin mq-960 {
+  @media (min-width: 960px) {
+    @content;
+  }
+}
+
+@mixin mq-1120 {
+  @media (min-width: 1120px) {
+    @content;
+  }
+}
+
+@mixin mq-1280 {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin mq-1440 {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin mq-1600 {
+  @media (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin hover {
+  [data-device="desktop"] &:hover {
+    @content;
+  }
+}
+
+@mixin transition($properties, $duration: 0.4s, $ease: $customEaseOut) {
+  transition-property: #{$properties};
+  transition-duration: $duration;
+  transition-timing-function: $ease;
+}

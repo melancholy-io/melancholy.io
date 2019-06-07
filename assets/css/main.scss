@@ -1,0 +1,9 @@
+@import "setting/variables";
+@import "setting/mixins";
+@import "base/reset";
+@import "base/default";
+
+.no-interact {
+  pointer-events: none;
+  user-select: none;
+}

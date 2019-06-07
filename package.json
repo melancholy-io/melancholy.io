@@ -1,0 +1,51 @@
+{
+  "name": "melancholy.io",
+  "version": "1.0.0",
+  "description": "melancholy.io web site",
+  "author": "P5Aholic",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "browserslist": [
+    "last 2 Chrome version",
+    "last 2 Firefox version",
+    "last 2 Safari version",
+    "last 2 Edge version",
+    "last 2 ChromeAndroid version",
+    "last 2 iOS version",
+    "ie 11",
+    ">= 5%"
+  ],
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "gsap": "^2.1.3",
+    "nuxt": "^2.8.1",
+    "ua-parser-js": "^0.7.19"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": ">=2.16.0",
+    "eslint-plugin-jest": ">=22.3.0",
+    "eslint-plugin-node": ">=8.0.1",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": ">=4.0.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "svgo": "^1.2.2"
+  }
+}
